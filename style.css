@@ -1,0 +1,776 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+div.header{
+    background-color: white;
+    width: 100%;
+    height: 65px;
+    box-sizing: border-box;
+    padding-left: 3.9cm;
+    padding-top: 0.6cm;
+    margin-top: 0.2mm;
+    padding-right: 1.5cm;
+}
+
+div.heading{
+    
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+    color: #212121;
+    
+}
+
+.firstdropdown{
+    height: 3px;
+    border: none;
+    box-shadow: none;
+}
+
+
+
+
+div.navigation{
+    background-color: rgb(51,104,158) !important;
+    width: 100% !important;
+    height: 53px;
+    box-sizing: border-box;
+    padding-left: 1.5cm;
+    padding-right: 1.7cm;
+    justify-content: space-between;
+    display: flex;
+}
+
+.joinbtn{
+    background-color: #6c8d34 !important;
+    margin-top: -0.7cm;
+}
+
+.nav-items{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 0.45cm;
+}
+
+.nav-items:hover{
+    color: #8ee3ef;
+}
+
+.btn-link{
+    text-decoration: none !important;
+}
+
+.dropdown-toggle::after {
+    content: none !important;
+}
+
+.dropdown-item{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    color: #616161;
+    margin-top: 0.5cm;
+    margin-right: 0.5cm;
+}
+
+.dropdown-item:hover{
+    color: #33689e;
+}
+
+.container-box {
+    display: inline;
+}
+
+.container-box img {
+    height: 102px;
+    margin-top: -58px;
+    margin-right: 8px;
+    box-shadow: 0 0 2px #757575;
+} 
+
+.welcome{
+    /* margin-top: -6.5cm; */
+    z-index: 3;
+    line-height: 1.1px;
+    overflow: visible;
+}
+
+.welcomemsg{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 26px;
+    z-index: 4;
+    margin-top: -6.5cm;
+    margin-right: -3cm;
+}
+
+.create-profile{
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 36px;
+    background-color: #6c8d34 !important;
+    margin-top: -5cm;
+    margin-right: -3cm;
+}
+
+.logincard{
+    width: 6.2cm;
+    margin-left: -3.5cm;
+    margin-top: -8.5cm;
+}
+
+.imgcont{
+height: 1.8cm;
+background-color: #6c8d34;
+}
+
+.profilepic{
+    height: 1.8cm;
+    width: 1.8cm;
+    border-radius: 100%;
+    margin-top: 0.9cm;
+    border: 3px solid #ffffff;
+}
+
+.profileinf{
+    background-color: #ffffff;
+    padding-top:1.2cm ;
+    padding-bottom: 5px;
+}
+
+.signup{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #064789;
+}
+
+.connect{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 0.4cm;
+    margin-left: -2.2cm;
+}
+
+.connectoptions{
+    margin-left: -0.6cm;
+    justify-content: space-between;
+    margin-top: 0.5cm;
+
+}
+
+.connecticon{
+      height: 0.8cm;
+      width: 1.5cm;
+}
+
+.dropdown-divider{
+    opacity: 70%;
+    color:#616161;
+    margin-top: 1cm;
+}
+
+div.or{
+    height: 30px;
+width: 30px;
+border-radius: 100%;
+background-color: #bbbbbb;
+font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.87);
+    padding-top: 5px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 100000;
+}
+
+.form{
+  margin-top: 0.2cm;
+  margin-left: 0.3cm;
+  margin-right: 0.3cm;
+}
+
+.enteremail{
+    border: none;
+    border-bottom: 1px solid #000000 !important;
+    border-radius: 0%;
+}
+
+.corosalExamplefade{
+    z-index: -1 !important;
+}
+
+.carousel-inner .carousel-item {
+    overflow: hidden;
+    height: 11cm;
+}
+
+div.about{
+    display: flex;
+}
+
+img.corousel1{
+    margin-top: -5.3cm;   
+    width: 100%;
+    object-fit: cover;
+}
+
+img.corousel2{
+    margin-top: -7cm;   
+    width: 100%;
+    object-fit: cover;
+}
+
+img.corousel3{
+    margin-top: -7cm;   
+    width: 100%;
+    object-fit: cover;
+}
+
+.magnumcards{
+    display: flex;
+}
+
+.alumnicellheading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #064789;
+}
+
+.alumnicellabout{
+    font-size: 16px;
+    font-weight: 100;
+    color: #212121;
+    line-height: 20px;
+}
+
+.aboutalumnicell{
+    margin: 1cm;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.alumniimg{
+    max-height: 400px;
+    max-width: 100%;
+    min-width: 220px;
+    margin: 1cm;
+    margin-right: 1.5cm;
+}
+
+.upcommingevents{
+    background-image: url("Images/magnumopusbg.jpg");
+    background-color: #bbbbbb;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1cm;
+}
+
+.magnumopus{
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+.aboutmagnumopus{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: justify;
+    text-justify: inter-word;
+    max-width: 1200px;
+    margin-bottom: 10px;
+}
+
+
+.magnumcards{
+    margin-top: 1.5cm;
+    justify-content: space-between;
+}
+
+.magnum-card-title{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #212121;
+    text-align: center;
+}
+
+.magnum-card-text{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #616161;
+    text-align: center;
+}
+
+.cardimg{
+    display: block;
+    text-align: center;
+    overflow: visible;
+    height: 1cm;
+}
+
+.magnum-card-img-top{
+    width: 130px;
+    height: 130px;
+    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1.7cm;
+}
+
+.iitialumniportal{
+    background-image: url(Images/iitialumniportalbg.jpg);
+    background-color: #064789 !important;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1cm;
+    min-height: 8cm;
+}
+
+.alumniportalheading{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.alumniportalcards{
+    margin-top: 1.5cm;
+    justify-content: space-between;
+}
+
+.iiti-card{
+    background: none;
+    border: none;
+}
+
+.iiti-card-title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.iiti-card-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
+.iiti-card-img{
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ************Alumni Update Section*********** */
+
+.alumninewsheading{
+    font-size: 28px;
+    font-weight: 500;
+    color: #000000;
+    line-height: 20px;
+    margin: 1cm 1cm 0.5cm 1cm;
+}
+
+.view-all-btn{
+    color: #33689e !important;
+    border-color: #33689e !important;
+    padding-left: 0.8cm !important;
+    padding-right: 0.8cm !important;
+    margin-bottom: 0.5cm !important;
+    align-self: baseline !important;
+}
+
+.alumninewscards{
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 1cm;
+  margin-right: 1cm;
+  margin-bottom: 1cm;
+}
+
+.view-all-btn:hover{
+    background-color: #33689e !important;
+    color: #ffffff !important;
+}
+
+.update-card-title{
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 20px;
+}
+
+.calenderlogo{
+    height: 12px;
+    opacity: 50%;
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+.update-card-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.update-card-text:hover{
+    color: #6c8d34;
+}
+
+.updatelink{
+    text-decoration: none;
+}
+
+.readmore{
+    font-size: 16px;
+    font-weight: 400;
+    color: #33689e;
+    line-height: 20px;
+}
+
+.readmore:hover{
+    color: #6c8d34;
+}
+
+/* ************Director's Section************* */
+
+.directormessage{
+    background:#EEEEEE;
+    /* display: flex;*/
+    padding-top: 25px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.messageheading{
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    max-width: 1170px;
+    margin-bottom: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.directorimg{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 160px;
+    margin-bottom: 12px;  
+}
+
+.directorname{
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+}
+
+.message{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.87);
+    text-align: center;
+    max-width: 1170px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ************Initiatives and activities********** */
+
+.activitiesheading{
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #212121;
+    margin-top: 1cm;
+   text-align: center;
+}
+
+.firstline{
+    margin-top: 0.5cm;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    flex:1;
+}
+
+.secondline{
+        margin-top: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
+        margin-bottom: 1.5cm;
+}
+
+.activitylogo{
+    height: 2cm;
+    width: 2cm;
+    margin: 0.5cm;
+}
+
+.magnumopus{
+    margin-right: 1cm;
+}
+
+.activityheading{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #212121;
+    text-align: center;
+    margin-bottom: 0.5cm;
+}
+
+.activitydescription{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #212121;
+    text-align: justify;
+    margin-bottom: 0.5cm;
+}
+
+.viewmore{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #6C8D34;
+    text-align: center;
+    text-decoration: none;
+}
+
+.viewmore:hover{
+    color: #33689e;
+}
+
+/* *********Contact********** */
+
+.contactheading{
+    font-size: 30px;
+    font-weight: 200;
+    color: #ffffff;
+    line-height: 48px;  
+    background-color: #064789;
+    height: 5cm; 
+    padding-top: 1.5cm;
+    padding-left: 1cm;
+}
+div.contact{
+   margin-left: 1cm;
+   margin-right: 1cm;
+   justify-content: space-between;
+   overflow: visible;
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 2.5cm;
+}
+
+div.contactinfo{
+background-color: #ffffff;
+box-shadow: 0 0 10px #757575;
+width: 35%;
+margin-right: 1cm;
+margin-top: -2cm;
+padding: 1cm;
+}
+
+.contactinfoheading{
+    font-size: 24px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 20px;
+    margin-top: 1cm;
+}
+
+.address{
+    font-size: 16px;
+    font-weight: 300;
+    color: #757575;
+    line-height: 28px;
+    margin-top: 1cm;
+}
+
+.phone{
+    font-size: 16px;
+    font-weight: 300;
+    color: #757575;
+    line-height: 20px;
+    margin-top: 1cm;
+}
+
+.phone:hover{
+    color: #33689e;
+    cursor: pointer;
+}
+
+.phonelogo{
+    opacity: 50%;
+    height: 20px;
+    margin-right: 5px;
+    /* width: 16px; */
+}
+
+.linklogo{
+    opacity: 50%;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.iitiwebsite{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #757575;
+    line-height: 20px;
+    margin-top: 1cm;
+}
+
+.iitiwebsite:hover{
+    color: #33689e;
+    cursor: pointer;
+}
+
+.emaillogo{
+    opacity: 50%;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.iitiemail{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #757575;
+    line-height: 20px;
+    margin-top: 1cm;
+}
+
+.iitiemail:hover{
+    color: #33689e;
+    cursor: pointer;
+}
+
+.socialmedialogo{
+   margin-top: 1cm;
+   margin-bottom: 1cm;
+}
+
+.logofb{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.logoln{
+    /* width: 20px; */
+    height: 40px;
+    /* border-radius: 100%; */
+    /* object-fit: cover; */
+    margin-left: 1cm;
+}
+
+div.map{
+    width: 65%;
+    margin-top: -2cm;
+    min-height: 300px;;
+}
+
+.footernav{
+    background-color: #212121;
+    min-height: 2.5cm;
+    padding-top: 0.9cm;
+    justify-content: space-around;
+}
+
+.footernav-ul{
+    list-style: none;
+    float: none;
+    position: absolute;
+    left: 25%;
+}
+.footernav-items{
+    display: inline-block;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-left: 1px solid #e0e0e0;
+}
+.footnavhome{
+    border-left: none !important;
+}
+
+.footernav-links{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e0e0e0;
+    line-height: 20px;
+}
+
+.footernav-links:hover{
+    color: #e0e0e0;
+}
+
+.copyright{
+  margin-left: 1cm;
+  margin-right: 1cm;
+  max-width: 1170px;
+  width: auto;
+}
+
+.almashinesmail{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 100;
+    color: #9e9e9e;
+    line-height: 14px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.envelope{
+   margin-right: 5px;
+   opacity: 50%;
+}
+
